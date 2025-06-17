@@ -1,0 +1,56 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #adadad; /* Rosa claro */
+    margin: 0;
+    color: #000000; /* Rosa oscuro */
+}
+
+.container {
+    text-align: center;
+    background-color: #fff3f8; /* Fondo suave */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#response {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+}
+
+#dino-game-container {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+#dino-game {
+    border: none;
+    width: 600px;
+    height: 400px;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+}
